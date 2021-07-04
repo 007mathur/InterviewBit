@@ -1,6 +1,8 @@
-#include<bits/stdc++.h>
+#include<vector>
+#include<iostream> 
+using namespace std;
 
-vector<int> Solution::spiralOrder(const vector<vector<int> > &A) {
+vector<int> spiralOrder(const vector<vector<int> > &A) {
     vector<int> B;
     int dir = 0;
     int m = A.size();
